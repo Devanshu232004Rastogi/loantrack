@@ -1,0 +1,17 @@
+# ---- secrets and credentials ignore ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+**/secret.yaml
+
+# ---- python ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ---- logs and OS junk ----
+*.log
+.DS_Store
